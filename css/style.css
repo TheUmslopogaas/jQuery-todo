@@ -1,0 +1,84 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: monospace;
+	background: #C6FFDD;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); 
+	background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); 
+}
+
+h1 {
+	padding: 10px 20px 10px;
+	background-color: #34495e;
+	color: #ecf0f1;
+	font-size: 30px;	
+}
+
+.fa-plus {
+	font-size: 24px;
+	float: right;
+	margin-top: 6px;
+}
+
+input {
+	width: 100%;
+	box-sizing: border-box;
+	padding: 17px;
+	background-color: white;
+	border: 1px solid #34495e;
+}
+
+ul {
+	list-style: none;
+	background-color: white;
+}
+
+li {
+	font-size: 16px;
+	color: #444;
+	height: 40px;
+	line-height: 40px;
+}
+
+span {
+	background-color: red;
+	height: 40px;
+	margin-right: 20px;
+	text-align: center;
+	color: white;
+	width: 0px;
+	display: inline-block;
+	line-height: 40px;
+	transition: all .2s;
+	opacity: 0;
+}
+
+li:hover span {
+	width: 40px;
+	opacity: 1;
+}
+
+#container {
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+	width: 360px;
+	margin: 100px auto;
+}
+
+				/*To Resize The PlaceHolder
+				-----------------------------*/
+::-webkit-input-placeholder {
+font-size: 18px;
+font-family: monospace;
+}
+:-moz-placeholder {  
+font-size: 18px;
+font-family: monospace;
+}
+/*--for IE10 support--*/
+:-ms-input-placeholder {
+font-size: 18px;
+font-family: monospace;
+}
